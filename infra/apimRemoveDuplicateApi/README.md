@@ -1,21 +1,21 @@
-# Remove Duplicate APIs Script
+# Remove Duplicate APIs Script :file_folder: :computer:
 
 This script is designed to identify and delete duplicate API operation entries within a specified API in an Azure API Management instance.
 
-## Prerequisites
+## Prerequisites :heavy_check_mark:
 
-- Azure CLI installed and logged in
-- PowerShell
+- Azure CLI installed and logged in :computer:
+- PowerShell :muscle:
 
-## Usage
+## Usage :hammer_and_wrench:
 
-1. Clone or download the repository to your local machine:
+1. Clone or download the repository to your local machine: :floppy_disk:
 
 ```
 git clone https://github.com/your_username/remove-apim-duplicate-apis.git
 ```
 
-2. Navigate to the directory containing the script:
+2. Navigate to the directory containing the script: :open_file_folder:
 
 ```
 cd remove-apim-duplicate-apis
@@ -31,7 +31,7 @@ Save the changes to the script file.
 
 4. Open a PowerShell window and navigate to the directory containing the script.
 
-5. Run the script by entering the following command:
+5. Run the script by entering the following command: :rocket:
 
 ```
 .\remove-apimDuplicateApis.ps1
@@ -45,7 +45,7 @@ Save the changes to the script file.
 
 Alternatively, you can schedule the script to run automatically using the Task Scheduler in Windows or a similar tool. By scheduling the script to run at regular intervals, you can ensure that duplicate operations are removed on a consistent basis without the need for manual intervention.
 
-## Notes
+## Notes :notebook_with_decorative_cover:
 
 - The script uses an array of integers from 1 to 999 to check for duplicate operations based on the last character of the operation name.
 
@@ -53,7 +53,7 @@ Alternatively, you can schedule the script to run automatically using the Task S
 
 - If you don't want to delete any operations, you can comment out or remove the lines that contain `az apim api operation delete` commands.
 
-## Explanation
+## Explanation :memo:
 
 The first step in the script after setting the necessary variables is to use the `az apim api operation list` command to retrieve a list of API operations for the specified API ID.
 
@@ -71,7 +71,7 @@ The `az apim api operation delete` command is then used to delete the operation,
 
 The script ends when all operations in the list have been processed. If no duplicate operations are found, the script will not output any files or delete any operations.
 
-## Details
+## Details :clipboard:
 
 The script is designed to simplify the management of API operations in Azure API Management by removing duplicate operations that may have been accidentally created during development or maintenance.
 
