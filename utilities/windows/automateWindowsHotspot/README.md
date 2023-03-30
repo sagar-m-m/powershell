@@ -68,5 +68,3 @@ This section will provide a brief overview of how you can automate your Windows 
 15. Close Task Scheduler.
 
 That's it! The next time a user logs in to the Windows PC, the Hotspot will be automatically enabled. Note that the user account used to create the task must have administrator-level permissions to enable the Hotspot.
-
-
