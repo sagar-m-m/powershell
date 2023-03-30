@@ -33,5 +33,3 @@ It's important to avoid storing sensitive data within the script since it may le
 - The script retrieves the appsettings of all Function Apps under the specified subscription.
 - The appsettings are saved as separate JSON files in the "Appsettings" folder.
 - Each appsetting file is named after the Function App's name.
-
-
