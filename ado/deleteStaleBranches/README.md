@@ -27,7 +27,7 @@ By default, the script runs in dry-run mode, meaning no branches are actually de
 To run the script, open a PowerShell terminal and navigate to the directory containing the script file. Then, execute the following command:
 
 ```powershell
-.\Delete-StaleBranches.ps1
+.\remove-staleBranches.ps1
 ```
 
 The script will output information about its progress in the terminal as it works, including the number of branches fetched, the number of stale branches found, and the name, ID, and status of each branch deleted.
