@@ -1,15 +1,16 @@
-# SonarQube Report Generator
+
+# :bar_chart: SonarQube Report Generator
 
 This PowerShell script generates a report of the number of high and critical issues for each project in SonarQube and outputs the results to a CSV file and an HTML report.
 
-## Prerequisites
+## :gear: Prerequisites
 
 Before running the script, you must have the following:
 
 - A SonarQube instance URL - this is the URL of your SonarQube instance, e.g. `https://sonarqube.example.com`.
 - Credentials for a SonarQube admin user - this is the username and password of a SonarQube user with admin privileges.
 
-## Usage
+## :computer: Usage
 
 1. Download and save the `get-sonarQubeReport.ps1` PowerShell script to your local machine.
 2. Open the script in a text editor and update the following variables with your SonarQube instance URL, admin username, and admin password:
@@ -35,7 +36,7 @@ $sonarQubeUrl = "<sonarQubeUrl>"
 
 7. You can open the `sonarResult.html` file in your web browser to view the results in a formatted report. The format of the report will look like this:
 
-# SonarQube Issues report
+# :chart_with_upwards_trend: SonarQube Issues report
 
 | ProjectName | HighIssues | CriticalIssues | TotalIssues |
 |-------------|-----------|----------------|-------------|
@@ -50,7 +51,6 @@ $sonarQubeUrl = "<sonarQubeUrl>"
 
 8. You can also view the results in the `sonarResult.csv` file.
 
-## Contributing
+## :handshake: Contributing
 
 If you find an issue with the script or would like to suggest an improvement, please submit a pull request or open an issue. Contributions are always welcome!
-
