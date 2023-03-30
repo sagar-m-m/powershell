@@ -22,3 +22,11 @@ We are dedicated to constantly improving this repository to make it even more va
 # ❤️ Thanks for stopping by!
 
 We hope you enjoy using our scripts and that they add value to your work. We appreciate your support and welcome any feedback, suggestions, or ideas that you may have. So, keep coding, keep automating, and keep it spicy! 🌶️🔥
+
+# 📧 Let's Chat!
+
+Have a question, idea, or just simply want to say hi? Whether you're a seasoned pro or new to the automation game, I'm always excited to connect with other like-minded individuals.
+
+Don't be shy! Drop me a message on my LinkedIn profile at 👉🏼 https://www.linkedin.com/in/sagarmm/ 🔗
+
+Let's swap stories, share tips and tricks, and help each other take our automation workflows to the next level! Looking forward to hearing from you soon! 🤖✨
